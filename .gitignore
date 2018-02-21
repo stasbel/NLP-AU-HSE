@@ -1,0 +1,5 @@
+*.txt
+!requirements.txt
+mystem
+.idea/
+.ipynb_checkpoints/
