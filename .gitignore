@@ -4,3 +4,4 @@ mystem
 .idea/
 .ipynb_checkpoints/
 *.zip
+example_texts.json
