@@ -11,6 +11,10 @@ jupyter = "*"
 "pymorphy2" = "*"
 nltk = "*"
 pandas = "*"
+sklearn = "*"
+scipy = "*"
+keras = "*"
+tensorflow = "*"
 
 
 [dev-packages]
