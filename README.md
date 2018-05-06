@@ -4,25 +4,12 @@ NLP course homework at SPbAU 8th term
 
 ## Installation
 
-### Dev
-
-I use python and [pipenv](https://docs.pipenv.org/) as a primary tools for 
-development. See [Pipfile](Pipfile), [Pipfile.lock](Pipfile.lock), 
-[requirements-dev.txt](requirements-dev.txt)(if any) and
-[requirements.txt](requirements.txt) for full specification of 
-platform, python and dependency packages.  
-Basically, to reproduce enviroment, you need to run `pip install -r 
-requirements.txt` with certain [version of python](Pipfile.lock#L15). However, 
-it is recommended to use [virtualenv](https://virtualenv.pypa.io/en/stable/). 
-
-### Makefile
-
-I provide [Makefile](Makefile) for convinient commands implementation.  
-Run `make help` to get info on that.
+I am using [conda](https://conda.io/docs/) as a primary tool for development.
+See [environment.yml](environment.yml) for specification of python and 
+dependency packages. Basically, to reproduce enviroment, you need to run 
+`conda env create -f environment.yml`.
 
 ## Usage
-
-`make help`
 
 ### Tasks
 
